@@ -11,7 +11,7 @@ const JobForm = ({ modalOpen, modalClose, addDataFunc }) => {
 
   const closeModal = () => {
     modalClose(false);
-    // reset(); 
+    reset(); 
   };
 
   const onSubmit = async (data) => {
